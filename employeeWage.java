@@ -1,5 +1,5 @@
 public class ComputeEmpWage
-{
+{    //use final keyword
 	public final String company;
 	public final int empRatePerHour;
 	public final int numOfWorking;
@@ -7,7 +7,7 @@ public class ComputeEmpWage
 	public int totalEmpWage;
 
 	public ComputeEmpWage(String company, int empRatePerHour,int numberOfWoringDays, int maxHoursPerMonth)
-	{
+	{// use this costructor
 		this.company = company;
 		this.empRatePerHour = empRatePerHour;
 		this.numberOfWorkingDays = numOfWorkingDays;
@@ -73,7 +73,7 @@ public class empWageComputation {
       }
       return totalEmpHrs * companyEmpWage.empRatePerHours;
    }
-
+	
 	public static void main(String[] args) {
 		empWageComputation empWagejava = new empWageComputation();
 		empWagejava.addCompanyEmpWage("DMart: ", 20, 20, 100);
